@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Noter</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="etnameinit">请输入记事名称</string>
+    <string name="etmaininit">请输入记事内容</string>
+    <string name="music">音乐列表</string>
+</resources>

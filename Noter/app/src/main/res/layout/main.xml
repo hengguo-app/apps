@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <EditText
+        android:id="@+id/noteName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/etnameinit"
+        android:textColor="#0000ff"
+        />
+    <EditText
+        android:id="@+id/noteTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#0000ff"
+        />
+    <view xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/noteMain"
+        class="demo.noter.LinedEditText"
+        android:layout_width="match_parent"
+        android:layout_height="300px"
+        android:padding="5dip"
+        android:scrollbars="vertical"
+        android:fadingEdge="vertical"
+        android:gravity="top"
+        android:capitalize="sentences"
+        android:background="@drawable/bgimg2"
+        android:text="@string/etmaininit"
+        android:textColor="#0000ff"
+        />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="170px"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            >
+            <Button
+                android:id="@+id/btnCommit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="保  存"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="取  消"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

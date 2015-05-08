@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="demo.noter" >
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".MainShow"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="ActivityMain"></activity>
+        <activity android:name="Update"></activity>
+        <activity android:name="Look"></activity>
+        <receiver android:name="AlarmNote"></receiver>
+        <activity android:name="Alarm"></activity>
+        <activity android:name="SetAlarm"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="select_dialog_items">
+        <item>China</item>
+        <item>United States</item>
+        <item>England</item>
+    </string-array>
+</resources>
